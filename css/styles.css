@@ -18,7 +18,9 @@ body {
 
 form {
     position: absolute;
-    top: 75px;
+    top: 125px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 input {
@@ -45,4 +47,16 @@ button:hover {
     transition: 0.2s;
 }
 
-#output {}
+#output {
+    width: 588px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 240px;
+    border: 3px solid hsl(0, 61%, 57%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
